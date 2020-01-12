@@ -29,6 +29,70 @@ public class for_loop_gauntlet {
 			} else {
 				System.out.println("Odd");
 			} */
+		
+		//6
+<<<<<<< HEAD
+		/*for (int i = 0; i < 778; i++) {
+			if (i % 7 == 0) {
+				System.out.println(i);
+=======
+		/*for (int d = 7; d < 778; d++) {
+			if (d % 7 == 0) {
+				System.out.println(d);
+>>>>>>> ce6006add15f49da139530e99070cf10fc338ffc
+			}
+		}*/
+		
+		//7
+<<<<<<< HEAD
+		int age = 0;
+		for (int i = 2006; i < 2020; i++) {
+			System.out.println(i + " " + age);
+			age++;
+=======
+		/*int age = 0;
+		for (int i = 2006; i < 2020; i++) {
+			System.out.println(i + " " + age);
+			age++;
+		}*/
+		
+		//1
+		/*for (int i = 0; i < 3; i++) {
+			for (int j = 0; j < 3; j++) {
+				System.out.println(i + " " + j);
+			}
+		}*/
+		
+		//2
+		/*for (int i = 0; i < 3; i++) {
+			for (int j = 1; j < 4; j++) {
+				System.out.print(j + i * 3 + " ");
+			}
+			System.out.println(" ");
+		}*/
+		
+		//3
+		/*for (int i = 0; i < 10; i++) {
+			for (int j = 1; j < 11; j++) {
+				System.out.print(j + i * 10 + "\t");
+			}
+			System.out.println(" ");
+		}*/
+		
+		//4
+		/*for (int i = 1; i < 7; i++) {
+			for (int j = 0; j < i; j++) {
+				System.out.print('*' + " ");
+			}
+			System.out.println(" ");
+		}*/
+		
+		//bonus
+		
+		for (int i = 0; i < 100; i++) {
+			System.out.println(100 - i);
+>>>>>>> ce6006add15f49da139530e99070cf10fc338ffc
 		}
 	}
+}
 
